@@ -79,4 +79,102 @@ F 3 "~" H 2000 4700 50  0001 C CNN
 	1    2000 4700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 5CE40660
+P 1250 6050
+F 0 "C?" H 1365 6096 50  0000 L CNN
+F 1 "C" H 1365 6005 50  0000 L CNN
+F 2 "" H 1288 5900 50  0001 C CNN
+F 3 "~" H 1250 6050 50  0001 C CNN
+	1    1250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CE406AD
+P 2550 5750
+F 0 "C?" H 2665 5796 50  0000 L CNN
+F 1 "C" H 2665 5705 50  0000 L CNN
+F 2 "" H 2588 5600 50  0001 C CNN
+F 3 "~" H 2550 5750 50  0001 C CNN
+	1    2550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CE40733
+P 6800 4350
+F 0 "C?" H 6915 4396 50  0000 L CNN
+F 1 "C" H 6915 4305 50  0000 L CNN
+F 2 "" H 6838 4200 50  0001 C CNN
+F 3 "~" H 6800 4350 50  0001 C CNN
+	1    6800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J?
+U 1 1 5CE40924
+P 7000 2300
+F 0 "J?" H 7080 2342 50  0000 L CNN
+F 1 "Conn_01x07" H 7080 2251 50  0000 L CNN
+F 2 "" H 7000 2300 50  0001 C CNN
+F 3 "~" H 7000 2300 50  0001 C CNN
+	1    7000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x07 J?
+U 1 1 5CE4099C
+P 7000 3150
+F 0 "J?" H 7080 3192 50  0000 L CNN
+F 1 "Conn_01x07" H 7080 3101 50  0000 L CNN
+F 2 "" H 7000 3150 50  0001 C CNN
+F 3 "~" H 7000 3150 50  0001 C CNN
+	1    7000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5CE40ADF
+P 4650 4350
+F 0 "R?" H 4400 4400 50  0000 L CNN
+F 1 "R_Small_US" H 4150 4300 50  0000 L CNN
+F 2 "" H 4650 4350 50  0001 C CNN
+F 3 "~" H 4650 4350 50  0001 C CNN
+	1    4650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5CE40B62
+P 4650 4550
+F 0 "R?" H 4400 4600 50  0000 L CNN
+F 1 "R_Small_US" H 4150 4500 50  0000 L CNN
+F 2 "" H 4650 4550 50  0001 C CNN
+F 3 "~" H 4650 4550 50  0001 C CNN
+	1    4650 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 5CE40C31
+P 4650 4750
+F 0 "R?" H 4400 4800 50  0000 L CNN
+F 1 "R_Small_US" H 4150 4700 50  0000 L CNN
+F 2 "" H 4650 4750 50  0001 C CNN
+F 3 "~" H 4650 4750 50  0001 C CNN
+	1    4650 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4250 4650 4250
+Connection ~ 4650 4250
+Wire Wire Line
+	4650 4250 3950 4250
+Wire Wire Line
+	5050 4600 5050 4450
+Wire Wire Line
+	5050 4450 4650 4450
+Connection ~ 4650 4450
 $EndSCHEMATC
