@@ -1,4 +1,82 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L New_Library:LTC4415 U?
+U 1 1 5CE3278D
+P 5600 5050
+F 0 "U?" H 5600 6165 50  0000 C CNN
+F 1 "LTC4415" H 5600 6074 50  0000 C CNN
+F 2 "" H 5550 4450 50  0001 C CNN
+F 3 "" H 5550 4450 50  0001 C CNN
+	1    5600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L New_Library:LTC3531 U?
+U 1 1 5CE3FEB3
+P 2000 6150
+F 0 "U?" H 2541 6871 50  0000 L CNN
+F 1 "LTC3531" H 2541 6780 50  0000 L CNN
+F 2 "" H 2000 6150 50  0001 C CNN
+F 3 "" H 2000 6150 50  0001 C CNN
+	1    2000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L New_Library:TPS22969 U?
+U 1 1 5CE3FF48
+P 4100 5800
+F 0 "U?" H 4100 6465 50  0000 C CNN
+F 1 "TPS22969" H 4100 6374 50  0000 C CNN
+F 2 "" H 4100 5800 50  0001 C CNN
+F 3 "" H 4100 5800 50  0001 C CNN
+	1    4100 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L New_Library:ISO1541 U?
+U 1 1 5CE4017B
+P 5650 1800
+F 0 "U?" H 5525 2225 50  0000 C CNN
+F 1 "ISO1541" H 5525 2134 50  0000 C CNN
+F 2 "" H 5550 1500 50  0001 C CNN
+F 3 "" H 5550 1500 50  0001 C CNN
+	1    5650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5CE40240
+P 950 5650
+F 0 "BT?" H 1068 5746 50  0000 L CNN
+F 1 "Battery_Cell" H 1068 5655 50  0000 L CNN
+F 2 "" V 950 5710 50  0001 C CNN
+F 3 "~" V 950 5710 50  0001 C CNN
+	1    950  5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5CE402B4
+P 2000 4700
+F 0 "L?" H 2053 4746 50  0000 L CNN
+F 1 "L" H 2053 4655 50  0000 L CNN
+F 2 "" H 2000 4700 50  0001 C CNN
+F 3 "~" H 2000 4700 50  0001 C CNN
+	1    2000 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
