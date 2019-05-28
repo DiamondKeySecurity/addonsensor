@@ -436,8 +436,6 @@ Wire Wire Line
 	6500 1400 6750 1400
 Text GLabel 6750 1700 2    50   Input ~ 0
 TAMPER_SW_ACT_ISO#
-Wire Wire Line
-	6750 1700 6000 1700
 $Comp
 L Connector_Generic:Conn_01x07 J?
 U 1 1 5CED6384
@@ -515,4 +513,75 @@ Wire Wire Line
 Connection ~ 8900 1750
 Wire Wire Line
 	8900 1750 9050 1750
+Wire Wire Line
+	6800 2000 6650 2000
+Wire Wire Line
+	6650 2000 6650 2500
+Wire Wire Line
+	6650 2500 6800 2500
+Wire Wire Line
+	6650 2500 6650 2850
+Wire Wire Line
+	6650 2850 6800 2850
+Connection ~ 6650 2500
+Wire Wire Line
+	6650 2850 6650 3350
+Wire Wire Line
+	6650 3350 6800 3350
+Connection ~ 6650 2850
+Wire Wire Line
+	6800 2200 6550 2200
+Wire Wire Line
+	6550 2200 6550 1700
+Wire Wire Line
+	6000 1700 6550 1700
+Connection ~ 6550 1700
+Wire Wire Line
+	6550 1700 6750 1700
+Wire Wire Line
+	6550 2200 6550 2400
+Wire Wire Line
+	6550 2400 6800 2400
+Connection ~ 6550 2200
+Wire Wire Line
+	6550 2400 6550 3050
+Wire Wire Line
+	6550 3050 6800 3050
+Connection ~ 6550 2400
+Wire Wire Line
+	6550 3050 6550 3250
+Wire Wire Line
+	6550 3250 6800 3250
+Connection ~ 6550 3050
+Wire Wire Line
+	6800 2100 6450 2100
+Wire Wire Line
+	6450 2100 6450 2600
+Wire Wire Line
+	6450 2600 6800 2600
+Wire Wire Line
+	6450 2600 6450 2950
+Wire Wire Line
+	6450 2950 6800 2950
+Connection ~ 6450 2600
+Wire Wire Line
+	6450 2950 6450 3450
+Wire Wire Line
+	6450 3450 6800 3450
+Connection ~ 6450 2950
+Wire Wire Line
+	6550 2200 6200 2200
+Text GLabel 6200 2200 0    50   Input ~ 0
+AGND
+$Comp
+L New_Library:ISO7041 U?
+U 1 1 5CF069DB
+P 5350 3700
+F 0 "U?" H 5350 5015 50  0000 C CNN
+F 1 "ISO7041" H 5350 4924 50  0000 C CNN
+F 2 "" H 5350 3700 50  0001 C CNN
+F 3 "" H 5350 3700 50  0001 C CNN
+	1    5350 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
