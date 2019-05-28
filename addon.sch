@@ -436,8 +436,6 @@ Wire Wire Line
 	6500 1400 6750 1400
 Text GLabel 6750 1700 2    50   Input ~ 0
 TAMPER_SW_ACT_ISO#
-Wire Wire Line
-	6750 1700 6000 1700
 $Comp
 L Connector_Generic:Conn_01x07 J?
 U 1 1 5CED6384
@@ -450,20 +448,11 @@ F 3 "~" H 8200 2300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 2100 8600 2100
-Wire Wire Line
-	8600 2100 8600 2600
-Wire Wire Line
-	8600 2600 8400 2600
-Wire Wire Line
-	8600 2600 8900 2600
-Connection ~ 8600 2600
+	8400 2100 8500 2100
 Text GLabel 8900 2600 2    50   Input ~ 0
 TAMPER_SW_ACT_ISO#
 Wire Wire Line
 	8800 2000 8800 1750
-Wire Wire Line
-	8800 1750 9050 1750
 $Comp
 L Device:Jumper JP?
 U 1 1 5CEDB967
@@ -488,4 +477,100 @@ F 3 "~" H 9800 1750 50  0001 C CNN
 $EndComp
 Text GLabel 9950 1750 2    50   Input ~ 0
 3V3_BATT_ISO
+Wire Wire Line
+	8400 2000 8650 2000
+Wire Wire Line
+	8500 2100 8500 2600
+Connection ~ 8500 2600
+Wire Wire Line
+	8500 2600 8400 2600
+Wire Wire Line
+	8500 2600 8900 2600
+Wire Wire Line
+	8400 2500 8650 2500
+Wire Wire Line
+	8650 2500 8650 2000
+Connection ~ 8650 2000
+Wire Wire Line
+	8650 2000 8800 2000
+Wire Wire Line
+	8400 2200 8800 2200
+Wire Wire Line
+	8800 2200 8800 2400
+Wire Wire Line
+	8800 2400 8400 2400
+Wire Wire Line
+	8800 2400 8900 2400
+Connection ~ 8800 2400
+Text GLabel 8900 2400 2    50   Input ~ 0
+AGND
+Wire Wire Line
+	8400 2300 8900 2300
+Wire Wire Line
+	8900 2300 8900 1750
+Wire Wire Line
+	8800 1750 8900 1750
+Connection ~ 8900 1750
+Wire Wire Line
+	8900 1750 9050 1750
+Wire Wire Line
+	6800 2000 6650 2000
+Wire Wire Line
+	6650 2000 6650 2500
+Wire Wire Line
+	6650 2500 6800 2500
+Wire Wire Line
+	6650 2500 6650 2850
+Wire Wire Line
+	6650 2850 6800 2850
+Connection ~ 6650 2500
+Wire Wire Line
+	6650 2850 6650 3350
+Wire Wire Line
+	6650 3350 6800 3350
+Connection ~ 6650 2850
+Wire Wire Line
+	6800 2200 6550 2200
+Wire Wire Line
+	6550 2200 6550 1700
+Wire Wire Line
+	6000 1700 6550 1700
+Connection ~ 6550 1700
+Wire Wire Line
+	6550 1700 6750 1700
+Wire Wire Line
+	6550 2200 6550 2400
+Wire Wire Line
+	6550 2400 6800 2400
+Connection ~ 6550 2200
+Wire Wire Line
+	6550 2400 6550 3050
+Wire Wire Line
+	6550 3050 6800 3050
+Connection ~ 6550 2400
+Wire Wire Line
+	6550 3050 6550 3250
+Wire Wire Line
+	6550 3250 6800 3250
+Connection ~ 6550 3050
+Wire Wire Line
+	6800 2100 6450 2100
+Wire Wire Line
+	6450 2100 6450 2600
+Wire Wire Line
+	6450 2600 6800 2600
+Wire Wire Line
+	6450 2600 6450 2950
+Wire Wire Line
+	6450 2950 6800 2950
+Connection ~ 6450 2600
+Wire Wire Line
+	6450 2950 6450 3450
+Wire Wire Line
+	6450 3450 6800 3450
+Connection ~ 6450 2950
+Wire Wire Line
+	6550 2200 6200 2200
+Text GLabel 6200 2200 0    50   Input ~ 0
+AGND
 $EndSCHEMATC
