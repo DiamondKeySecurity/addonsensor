@@ -258,15 +258,15 @@ $Comp
 L Device:C C5
 U 1 1 5CE46994
 P 5050 5500
-F 0 "C5" H 4800 5550 50  0000 L CNN
-F 1 "1uF" H 4750 5450 50  0000 L CNN
+F 0 "C5" H 5200 5400 50  0000 L CNN
+F 1 "1uF" H 5200 5300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5088 5350 50  0001 C CNN
 F 3 "~" H 5050 5500 50  0001 C CNN
 	1    5050 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 5350 5050 5350
+	4700 5350 4850 5350
 Wire Wire Line
 	5050 5650 5050 5700
 Text GLabel 3400 6350 0    50   Input ~ 0
@@ -290,12 +290,12 @@ $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5CE48C17
-P 5600 5750
-F 0 "#PWR0104" H 5600 5500 50  0001 C CNN
-F 1 "GND" H 5605 5577 50  0000 C CNN
-F 2 "" H 5600 5750 50  0001 C CNN
-F 3 "" H 5600 5750 50  0001 C CNN
-	1    5600 5750
+P 5600 6000
+F 0 "#PWR0104" H 5600 5750 50  0001 C CNN
+F 1 "GND" H 5605 5827 50  0000 C CNN
+F 2 "" H 5600 6000 50  0001 C CNN
+F 3 "" H 5600 6000 50  0001 C CNN
+	1    5600 6000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -466,11 +466,6 @@ Connection ~ 6650 2850
 Wire Wire Line
 	6800 2200 6550 2200
 Wire Wire Line
-	6550 2200 6550 1700
-Connection ~ 6550 1700
-Wire Wire Line
-	6550 1700 6750 1700
-Wire Wire Line
 	6550 2200 6550 2400
 Wire Wire Line
 	6550 2400 6800 2400
@@ -537,8 +532,6 @@ Wire Wire Line
 	5550 2100 6350 2100
 Wire Wire Line
 	6350 2100 6350 1700
-Wire Wire Line
-	6350 1700 6550 1700
 Wire Wire Line
 	5850 1700 6250 1700
 Wire Wire Line
@@ -711,6 +704,89 @@ Wire Wire Line
 Wire Wire Line
 	5150 4250 5050 4250
 Connection ~ 5050 5350
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5CF3D6C8
+P 1150 4400
+F 0 "J?" H 1070 4617 50  0000 C CNN
+F 1 "Conn_01x02" H 1070 4526 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" H 1150 4400 50  0001 C CNN
+F 3 "~" H 1150 4400 50  0001 C CNN
+	1    1150 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CF41FA2
+P 1350 4500
+F 0 "#PWR?" H 1350 4250 50  0001 C CNN
+F 1 "GND" H 1355 4327 50  0000 C CNN
+F 2 "" H 1350 4500 50  0001 C CNN
+F 3 "" H 1350 4500 50  0001 C CNN
+	1    1350 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5250 1400 4800
+Wire Wire Line
+	1400 4800 1550 4800
+Wire Wire Line
+	1550 4800 1550 4400
+Wire Wire Line
+	1550 4400 1350 4400
+Wire Wire Line
+	6350 1700 6450 1700
+Wire Wire Line
+	6450 2100 6450 1700
+Connection ~ 6450 2100
+Connection ~ 6450 1700
+Wire Wire Line
+	6450 1700 6750 1700
+Wire Wire Line
+	6800 2300 6350 2300
+Wire Wire Line
+	6350 2300 6350 2550
+Wire Wire Line
+	6350 2550 5100 2550
+Wire Wire Line
+	6800 3150 5450 3150
+Wire Wire Line
+	5450 3150 5450 3000
+Wire Wire Line
+	5450 3000 5100 3000
+Wire Wire Line
+	5100 2550 5100 3000
+$Comp
+L Device:C C?
+U 1 1 5CF6BB02
+P 4850 5500
+F 0 "C?" H 4600 5550 50  0000 L CNN
+F 1 "0.1uF" H 4550 5450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4888 5350 50  0001 C CNN
+F 3 "~" H 4850 5500 50  0001 C CNN
+	1    4850 5500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4850 5350
+Wire Wire Line
+	4850 5350 5050 5350
+Wire Wire Line
+	4850 5700 5050 5700
+Connection ~ 5050 5700
 Wire Wire Line
 	5050 5700 5600 5700
+Wire Wire Line
+	5600 5700 5600 6000
+Connection ~ 5600 5700
+Wire Wire Line
+	4850 5700 4850 5650
+Text GLabel 6500 5200 0    50   Input ~ 0
+BATT_ON
+Wire Wire Line
+	6350 5050 6550 5050
+Wire Wire Line
+	6550 5050 6550 5200
+Wire Wire Line
+	6550 5200 6500 5200
+Connection ~ 6350 5050
 $EndSCHEMATC
