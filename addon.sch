@@ -632,11 +632,7 @@ F 3 "" H 4750 3400 50  0001 C CNN
 $EndComp
 Text GLabel 4000 2850 0    50   Input ~ 0
 3V3_BATT_ISO
-Wire Wire Line
-	4300 2850 4050 2850
 Connection ~ 4050 2850
-Wire Wire Line
-	4050 2850 4000 2850
 Wire Wire Line
 	4300 3000 4200 3000
 $Comp
@@ -654,8 +650,6 @@ Wire Wire Line
 	4300 3150 4300 3300
 Wire Wire Line
 	4300 3300 4050 3300
-Wire Wire Line
-	4050 2850 4050 3300
 $Comp
 L Device:Jumper JP?
 U 1 1 5CF7CED5
@@ -789,4 +783,63 @@ Wire Wire Line
 Wire Wire Line
 	6550 5200 6500 5200
 Connection ~ 6350 5050
+$Comp
+L Device:C C?
+U 1 1 5CF82E58
+P 5450 3300
+F 0 "C?" H 5200 3350 50  0000 L CNN
+F 1 "0.1uF" H 5150 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5488 3150 50  0001 C CNN
+F 3 "~" H 5450 3300 50  0001 C CNN
+	1    5450 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 3150
+$Comp
+L Device:C C?
+U 1 1 5CF82F78
+P 3800 2700
+F 0 "C?" V 3550 2750 50  0000 L CNN
+F 1 "0.1uF" V 3500 2650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 3838 2550 50  0001 C CNN
+F 3 "~" H 3800 2700 50  0001 C CNN
+	1    3800 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 2700 4050 2700
+Wire Wire Line
+	4050 2700 4050 2850
+Wire Wire Line
+	3850 2850 3850 2650
+Wire Wire Line
+	4050 2850 4050 3300
+Wire Wire Line
+	3650 2700 3200 2700
+Wire Wire Line
+	3850 2850 4050 2850
+Wire Wire Line
+	4050 2850 4300 2850
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5CFA99B6
+P 5450 3500
+F 0 "#PWR?" H 5450 3250 50  0001 C CNN
+F 1 "GNDREF" H 5455 3327 50  0000 C CNN
+F 2 "" H 5450 3500 50  0001 C CNN
+F 3 "" H 5450 3500 50  0001 C CNN
+	1    5450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5CFBC8A7
+P 3200 2700
+F 0 "#PWR?" H 3200 2450 50  0001 C CNN
+F 1 "GNDREF" H 3205 2527 50  0000 C CNN
+F 2 "" H 3200 2700 50  0001 C CNN
+F 3 "" H 3200 2700 50  0001 C CNN
+	1    3200 2700
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
