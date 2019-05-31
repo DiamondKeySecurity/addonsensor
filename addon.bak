@@ -337,7 +337,7 @@ TAMPER_SW_ACT_ISO#
 Wire Wire Line
 	6800 2000 6650 2000
 Wire Wire Line
-	6650 2000 6650 2500
+	6650 2000 6650 2300
 Wire Wire Line
 	6650 2500 6800 2500
 Wire Wire Line
@@ -564,7 +564,7 @@ Connection ~ 6450 1700
 Wire Wire Line
 	6450 1700 6750 1700
 Wire Wire Line
-	6800 2300 6350 2300
+	6800 2300 6650 2300
 Wire Wire Line
 	6350 2300 6350 2550
 Wire Wire Line
@@ -799,4 +799,9 @@ Wire Wire Line
 	1450 1300 1550 1300
 Wire Wire Line
 	1450 1400 1550 1400
+Connection ~ 6650 2300
+Wire Wire Line
+	6650 2300 6650 2500
+Wire Wire Line
+	6650 2300 6350 2300
 $EndSCHEMATC
