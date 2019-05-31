@@ -309,7 +309,7 @@ Text GLabel 4050 4250 0    50   Input ~ 0
 3V3
 Text GLabel 3850 1600 0    50   Input ~ 0
 3V3_BATT
-Text GLabel 3450 2100 0    50   Input ~ 0
+Text GLabel 3850 2100 0    50   Input ~ 0
 TAMPER_SW_ACT#
 Wire Wire Line
 	3850 1600 4350 1600
@@ -437,7 +437,7 @@ F 3 "" H 5850 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 2100 4350 2100
+	3850 2100 4350 2100
 Connection ~ 4150 2300
 Wire Wire Line
 	4350 1700 4150 1700
@@ -663,25 +663,25 @@ $EndComp
 $Comp
 L Connector:Conn_01x06_Male J5
 U 1 1 5CFC9A62
-P 1650 3200
-F 0 "J5" H 1756 3578 50  0000 C CNN
-F 1 "Conn_01x06_Female" H 1756 3487 50  0000 C CNN
-F 2 "Connectors_Molex:Molex_KK-6410-06_06x2.54mm_Straight" H 1650 3200 50  0001 C CNN
-F 3 "~" H 1650 3200 50  0001 C CNN
-	1    1650 3200
+P 1350 1300
+F 0 "J5" H 1456 1678 50  0000 C CNN
+F 1 "Conn_01x06_Female" H 1456 1587 50  0000 C CNN
+F 2 "Connectors_Molex:Molex_KK-6410-06_06x2.54mm_Straight" H 1350 1300 50  0001 C CNN
+F 3 "~" H 1350 1300 50  0001 C CNN
+	1    1350 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 3000 2    50   Input ~ 0
+Text GLabel 1550 1100 2    50   Input ~ 0
 3V3_BATT
-Text GLabel 1850 3100 2    50   Input ~ 0
+Text GLabel 1550 1200 2    50   Input ~ 0
 3V3
-Text GLabel 1850 3200 2    50   Input ~ 0
+Text GLabel 1550 1300 2    50   Input ~ 0
 3V3_BATT_ISO
-Text GLabel 1850 3300 2    50   Input ~ 0
+Text GLabel 1550 1400 2    50   Input ~ 0
 TAMPER_SW_ACT#
-Text GLabel 1850 3400 2    50   Input ~ 0
+Text GLabel 1550 1500 2    50   Input ~ 0
 BATT_ENABLE
-Text GLabel 1850 3500 2    50   Input ~ 0
+Text GLabel 1550 1600 2    50   Input ~ 0
 BATT_ON
 Connection ~ 1500 5350
 Wire Wire Line
@@ -695,4 +695,26 @@ Wire Wire Line
 Connection ~ 5150 2850
 Wire Wire Line
 	5150 2850 5150 2550
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 5D0C847C
+P 1550 2500
+F 0 "J?" H 1470 3117 50  0000 C CNN
+F 1 "Conn_01x10" H 1470 3026 50  0000 C CNN
+F 2 "" H 1550 2500 50  0001 C CNN
+F 3 "~" H 1550 2500 50  0001 C CNN
+	1    1550 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 5D0CBC9D
+P 1550 3800
+F 0 "J?" H 1470 4417 50  0000 C CNN
+F 1 "Conn_01x10" H 1470 4326 50  0000 C CNN
+F 2 "" H 1550 3800 50  0001 C CNN
+F 3 "~" H 1550 3800 50  0001 C CNN
+	1    1550 3800
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
