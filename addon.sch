@@ -673,13 +673,9 @@ F 3 "~" H 1350 1300 50  0001 C CNN
 $EndComp
 Text GLabel 1550 1100 2    50   Input ~ 0
 3V3_BATT
-Text GLabel 1550 1200 2    50   Input ~ 0
+Text GLabel 2000 2100 2    50   Input ~ 0
 3V3
-Text GLabel 1550 1300 2    50   Input ~ 0
-3V3_BATT_ISO
-Text GLabel 1550 1400 2    50   Input ~ 0
-TAMPER_SW_ACT#
-Text GLabel 1550 1500 2    50   Input ~ 0
+Text GLabel 2300 2800 2    50   Input ~ 0
 BATT_ENABLE
 Text GLabel 1550 1600 2    50   Input ~ 0
 BATT_ON
@@ -701,20 +697,102 @@ U 1 1 5D0C847C
 P 1550 2500
 F 0 "J?" H 1470 3117 50  0000 C CNN
 F 1 "Conn_01x10" H 1470 3026 50  0000 C CNN
-F 2 "" H 1550 2500 50  0001 C CNN
+F 2 "addon:75915" H 1550 2500 50  0001 C CNN
 F 3 "~" H 1550 2500 50  0001 C CNN
 	1    1550 2500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J?
+L Connector:Conn_01x10_Male J?
 U 1 1 5D0CBC9D
-P 1550 3800
-F 0 "J?" H 1470 4417 50  0000 C CNN
-F 1 "Conn_01x10" H 1470 4326 50  0000 C CNN
-F 2 "" H 1550 3800 50  0001 C CNN
-F 3 "~" H 1550 3800 50  0001 C CNN
-	1    1550 3800
-	-1   0    0    -1  
+P 1500 3700
+F 0 "J?" H 1606 4278 50  0000 C CNN
+F 1 "Conn_01x10" H 1606 4187 50  0000 C CNN
+F 2 "addon:75915" H 1500 3700 50  0001 C CNN
+F 3 "~" H 1500 3700 50  0001 C CNN
+	1    1500 3700
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1750 2100 1850 2100
+Wire Wire Line
+	1850 2100 1850 3300
+Wire Wire Line
+	1850 3300 1700 3300
+Wire Wire Line
+	1750 2200 1900 2200
+Wire Wire Line
+	1900 2200 1900 3400
+Wire Wire Line
+	1900 3400 1700 3400
+Wire Wire Line
+	1750 2300 1950 2300
+Wire Wire Line
+	1950 2300 1950 3500
+Wire Wire Line
+	1950 3500 1700 3500
+Wire Wire Line
+	1750 2400 2000 2400
+Wire Wire Line
+	2000 2400 2000 3600
+Wire Wire Line
+	2000 3600 1700 3600
+Wire Wire Line
+	1750 2500 2050 2500
+Wire Wire Line
+	2050 2500 2050 3700
+Wire Wire Line
+	2050 3700 1700 3700
+Wire Wire Line
+	1750 2600 2100 2600
+Wire Wire Line
+	2100 2600 2100 3800
+Wire Wire Line
+	2100 3800 1700 3800
+Wire Wire Line
+	1750 2700 2150 2700
+Wire Wire Line
+	2150 2700 2150 3900
+Wire Wire Line
+	2150 3900 1700 3900
+Wire Wire Line
+	1750 2800 2200 2800
+Wire Wire Line
+	2200 2800 2200 4000
+Wire Wire Line
+	2200 4000 1700 4000
+Wire Wire Line
+	1750 2900 2250 2900
+Wire Wire Line
+	2250 2900 2250 4100
+Wire Wire Line
+	1700 4100 2250 4100
+Wire Wire Line
+	1750 3000 2300 3000
+Wire Wire Line
+	2300 3000 2300 4200
+Wire Wire Line
+	2300 4200 1700 4200
+Wire Wire Line
+	2000 2100 1850 2100
+Connection ~ 1850 2100
+Wire Wire Line
+	2300 2800 2200 2800
+Connection ~ 2200 2800
+$Comp
+L power:GND #PWR?
+U 1 1 5D12C6D1
+P 2600 3050
+F 0 "#PWR?" H 2600 2800 50  0001 C CNN
+F 1 "GND" H 2605 2877 50  0000 C CNN
+F 2 "" H 2600 3050 50  0001 C CNN
+F 3 "" H 2600 3050 50  0001 C CNN
+	1    2600 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3000 2600 3000
+Wire Wire Line
+	2600 3000 2600 3050
+Connection ~ 2300 3000
 $EndSCHEMATC
