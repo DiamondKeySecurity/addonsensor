@@ -804,14 +804,12 @@ Wire Wire Line
 	6650 2300 6650 2500
 Wire Wire Line
 	6650 2300 6350 2300
-Text GLabel 1200 4950 0    50   Input ~ 0
-BATT
 Wire Wire Line
 	1200 4950 1500 4950
 Wire Wire Line
 	1500 4950 1500 5350
 Text GLabel 4350 5000 0    50   Input ~ 0
-BATT_SW
+BATT_REG_SW
 Wire Wire Line
 	4350 5000 4650 5000
 Wire Wire Line
@@ -820,4 +818,12 @@ Wire Wire Line
 	4650 5250 4850 5250
 Wire Wire Line
 	4850 5250 4850 5350
+Text GLabel 1200 4950 0    50   Input ~ 0
+BATT
+Text GLabel 3300 5000 0    50   Input ~ 0
+BATT_REG
+Wire Wire Line
+	3300 5000 3500 5000
+Wire Wire Line
+	3500 5000 3500 5350
 $EndSCHEMATC
