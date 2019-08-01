@@ -295,8 +295,6 @@ F 3 "" H 4150 2400 50  0001 C CNN
 	1    4150 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4150 2300 4150 2400
 Text GLabel 6750 1400 2    50   Input ~ 0
 3V3_BATT_ISO
 Wire Wire Line
@@ -368,12 +366,6 @@ Wire Wire Line
 Connection ~ 5700 2300
 Wire Wire Line
 	5700 2300 6250 2300
-Wire Wire Line
-	4350 2200 4150 2200
-Wire Wire Line
-	4150 2200 4150 2300
-Wire Wire Line
-	4150 2300 4350 2300
 $Comp
 L Device:C C11
 U 1 1 5CF29C78
@@ -398,12 +390,8 @@ F 3 "" H 5850 1350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3850 2100 4350 2100
-Connection ~ 4150 2300
 Wire Wire Line
 	4350 1700 4150 1700
-Wire Wire Line
-	4150 1700 4150 2200
-Connection ~ 4150 2200
 Wire Wire Line
 	5550 1600 5550 1050
 Wire Wire Line
@@ -5012,4 +5000,11 @@ Connection ~ 4350 1600
 Connection ~ 5550 1600
 Wire Wire Line
 	5550 1600 6500 1600
+Wire Wire Line
+	4150 1700 4150 2300
+Wire Wire Line
+	4350 2300 4150 2300
+Connection ~ 4150 2300
+Wire Wire Line
+	4150 2300 4150 2400
 $EndSCHEMATC
