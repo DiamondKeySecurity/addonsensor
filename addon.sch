@@ -5007,4 +5007,16 @@ Wire Wire Line
 Connection ~ 4150 2300
 Wire Wire Line
 	4150 2300 4150 2400
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D4FF307
+P 6500 1400
+F 0 "TP?" H 6558 1520 50  0000 L CNN
+F 1 "TestPoint" H 6558 1429 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 6700 1400 50  0001 C CNN
+F 3 "~" H 6700 1400 50  0001 C CNN
+	1    6500 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 1400
 $EndSCHEMATC
