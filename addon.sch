@@ -250,7 +250,6 @@ Wire Wire Line
 	6350 4250 6600 4250
 Wire Wire Line
 	6600 4850 6600 4250
-Connection ~ 6600 4250
 Wire Wire Line
 	6600 4250 6950 4250
 Wire Wire Line
@@ -477,12 +476,6 @@ F 3 "" H 5800 4450 50  0001 C CNN
 	1    5850 5050
 	1    0    0    -1  
 $EndComp
-Connection ~ 5300 4250
-Wire Wire Line
-	5300 4250 4750 4250
-Wire Wire Line
-	5400 4250 5300 4250
-Connection ~ 5300 5350
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5CF3D6C8
@@ -506,8 +499,6 @@ Wire Wire Line
 	6800 2300 6650 2300
 Wire Wire Line
 	6350 2300 6350 2550
-Wire Wire Line
-	6350 2550 5150 2550
 Wire Wire Line
 	5450 3150 5450 3000
 Wire Wire Line
@@ -533,7 +524,6 @@ Wire Wire Line
 	5300 5700 5850 5700
 Wire Wire Line
 	5850 5700 5850 6000
-Connection ~ 5850 5700
 Wire Wire Line
 	5100 5700 5100 5650
 Text GLabel 6750 5200 0    50   Input ~ 0
@@ -544,7 +534,6 @@ Wire Wire Line
 	6800 5050 6800 5200
 Wire Wire Line
 	6800 5200 6750 5200
-Connection ~ 6600 5050
 $Comp
 L Device:C C8
 U 1 1 5CF82E58
@@ -5001,22 +4990,82 @@ Connection ~ 5550 1600
 Wire Wire Line
 	5550 1600 6500 1600
 Wire Wire Line
-	4150 1700 4150 2300
+	4150 1700 4150 1850
 Wire Wire Line
 	4350 2300 4150 2300
 Connection ~ 4150 2300
 Wire Wire Line
 	4150 2300 4150 2400
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 5D4FF307
 P 6500 1400
-F 0 "TP?" H 6558 1520 50  0000 L CNN
+F 0 "TP1" H 6558 1520 50  0000 L CNN
 F 1 "TestPoint" H 6558 1429 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 6700 1400 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 6700 1400 50  0001 C CNN
 F 3 "~" H 6700 1400 50  0001 C CNN
 	1    6500 1400
 	1    0    0    -1  
 $EndComp
 Connection ~ 6500 1400
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5D4A7285
+P 1450 4950
+F 0 "TP5" H 1508 5070 50  0000 L CNN
+F 1 "TestPoint" H 1508 4979 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm" H 1650 4950 50  0001 C CNN
+F 3 "~" H 1650 4950 50  0001 C CNN
+	1    1450 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 4950
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5D4A76AC
+P 4350 1100
+F 0 "TP2" H 4408 1220 50  0000 L CNN
+F 1 "TestPoint" H 4408 1129 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 4550 1100 50  0001 C CNN
+F 3 "~" H 4550 1100 50  0001 C CNN
+	1    4350 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 1100
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5D4A77AB
+P 5700 2300
+F 0 "TP3" H 5758 2420 50  0000 L CNN
+F 1 "TestPoint" H 5758 2329 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 5900 2300 50  0001 C CNN
+F 3 "~" H 5900 2300 50  0001 C CNN
+	1    5700 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 2550 6350 2550
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5D4B8249
+P 4150 1850
+F 0 "TP4" V 4208 1970 50  0000 L CNN
+F 1 "TestPoint" V 4100 2000 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 4350 1850 50  0001 C CNN
+F 3 "~" H 4350 1850 50  0001 C CNN
+	1    4150 1850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4150 1850
+Wire Wire Line
+	4150 1850 4150 2300
+Connection ~ 6600 5050
+Connection ~ 5850 5700
+Connection ~ 5300 5350
+Wire Wire Line
+	5400 4250 5300 4250
+Wire Wire Line
+	5300 4250 4750 4250
+Connection ~ 5300 4250
+Connection ~ 6600 4250
 $EndSCHEMATC
