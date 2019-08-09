@@ -5068,4 +5068,38 @@ Wire Wire Line
 	5300 4250 4750 4250
 Connection ~ 5300 4250
 Connection ~ 6600 4250
+$Comp
+L Device:C C12
+U 1 1 5D4D93EE
+P 3700 1250
+F 0 "C12" H 3450 1300 50  0000 L CNN
+F 1 "10uF" H 3400 1150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3738 1100 50  0001 C CNN
+F 3 "~" H 3700 1250 50  0001 C CNN
+	1    3700 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1100 4150 1100
+Connection ~ 4150 1100
+Wire Wire Line
+	3700 1400 4150 1400
+Connection ~ 4150 1400
+$Comp
+L Device:C C13
+U 1 1 5D4F21EB
+P 6100 1200
+F 0 "C13" H 6300 1300 50  0000 L CNN
+F 1 "10uF" H 6150 1100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6138 1050 50  0001 C CNN
+F 3 "~" H 6100 1200 50  0001 C CNN
+	1    6100 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1050 5850 1050
+Connection ~ 5850 1050
+Wire Wire Line
+	6100 1350 5850 1350
+Connection ~ 5850 1350
 $EndSCHEMATC
