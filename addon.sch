@@ -343,7 +343,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 1700 5850 1800
 Wire Wire Line
-	5300 2100 6350 2100
+	5300 2100 5850 2100
 Wire Wire Line
 	6350 2100 6350 1700
 Wire Wire Line
@@ -364,7 +364,7 @@ Wire Wire Line
 	5300 2300 5700 2300
 Connection ~ 5700 2300
 Wire Wire Line
-	5700 2300 6250 2300
+	5700 2300 5850 2300
 $Comp
 L Device:C C11
 U 1 1 5CF29C78
@@ -5102,4 +5102,25 @@ Connection ~ 5850 1050
 Wire Wire Line
 	6100 1350 5850 1350
 Connection ~ 5850 1350
+$Comp
+L Device:R_Small_US R6
+U 1 1 5D7C7CB3
+P 5850 2200
+F 0 "R6" H 5700 2350 50  0000 L CNN
+F 1 "10k" H 5600 2250 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 5850 2200 50  0001 C CNN
+F 3 "~" H 5850 2200 50  0001 C CNN
+	1    5850 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 2100
+Wire Wire Line
+	5850 2100 6350 2100
+Connection ~ 5850 2300
+Wire Wire Line
+	5850 2300 6250 2300
+Text Notes 700  7300 0    50   ~ 0
+Diamond-HSM by Diamond Key Security, NFP is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License \n(https://creativecommons.org/licenses/by-sa/4.0/).
+Text Notes 700  7100 0    50   ~ 0
+\n\nCopyright © 2019 Diamond Key Security™ all rights reserved.\n\nVersion 0.1 ; Released 09-09-2019
 $EndSCHEMATC
