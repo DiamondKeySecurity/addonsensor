@@ -5119,6 +5119,8 @@ Wire Wire Line
 Connection ~ 5850 2300
 Wire Wire Line
 	5850 2300 6250 2300
-Text Notes 650  7150 0    50   ~ 0
+Text Notes 700  7300 0    50   ~ 0
 Diamond-HSM by Diamond Key Security, NFP is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License \n(https://creativecommons.org/licenses/by-sa/4.0/).
+Text Notes 700  7100 0    50   ~ 0
+\n\nCopyright © 2019 Diamond Key Security™ all rights reserved.\n\nVersion 0.1 ; Released 09-09-2019
 $EndSCHEMATC

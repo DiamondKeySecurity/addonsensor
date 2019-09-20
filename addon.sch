@@ -5119,8 +5119,8 @@ Wire Wire Line
 Connection ~ 5850 2300
 Wire Wire Line
 	5850 2300 6250 2300
-Text Notes 700  7300 0    50   ~ 0
-Diamond-HSM by Diamond Key Security, NFP is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License \n(https://creativecommons.org/licenses/by-sa/4.0/).
-Text Notes 700  7100 0    50   ~ 0
+Text Notes 8200 1350 0    50   ~ 0
 \n\nCopyright © 2019 Diamond Key Security™ all rights reserved.\n\nVersion 0.1 ; Released 09-09-2019
+Text Notes 8050 5650 0    50   ~ 0
+Redistribution and use in source and binary forms, with or without\n\nmodification, are permitted provided that the following conditions are\n\nmet:\n\n- Redistributions of source code must retain the above copyright notice,\n\n  this list of conditions and the following disclaimer.\n\n \n\n- Redistributions in binary form must reproduce the above copyright\n\n  notice, this list of conditions and the following disclaimer in the\n\n  documentation and/or other materials provided with the distribution.\n\n \n\n- Neither the name of the NORDUnet nor the names of its contributors may\n\n  be used to endorse or promote products derived from this software\n\n  without specific prior written permission.\n\n \n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS\n\nIS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED\n\nTO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A\n\nPARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT\n\nHOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n\nSPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED\n\nTO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR\n\nPROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n\nLIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\n\nNEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 $EndSCHEMATC
